@@ -16,7 +16,7 @@ A simple web application that calculates the distance and midpoint between two p
 distance_midpoint_calculator/
 
 ├── app.py
-|
+
 ├── README.md
 |
 ├── requirements.txt
