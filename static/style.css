@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    max-width: 500px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.xy-row {
+display: flex;
+gap: 10px;
+}
+
+.xy-row input[type="text"] {
+width: 100%;
+margin-right: 0;
+}
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 8px;
+    color: #555;
+}
+input[type="text"] {
+    width: 48%;
+    padding: 10px;
+    margin-right: 4%;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+input[type="text"]:last-child {
+    margin-right: 0;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background-color: #4facfe;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #00f2fe;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+}
+.results {
+    background: #e7f5ff;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.plot {
+    margin-top: 20px;
+    text-align: center;
+}
+.plot img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Distance & Midpoint Calculator</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+<div class="container">
+    <h1>Distance and Midpoint Calculator</h1>
+
+    <form method="POST">
+        <div class="input-group">
+            <label>Point A (x1, y1):</label>
+            <div class ="xy-row">
+            <input type="text" name="x1" value="{{ x1 if x1 is defined else '' }}" required />
+            <input type="text" name="y1" value="{{ y1 if y1 is defined else '' }}" required />
+            </div>
+        </div>
+        <div class="input-group">
+            <label>Point B (x2, y2):</label>
+            <div class ="xy-row">
+            <input type="text" name="x2" value="{{ x2 if x2 is defined else '' }}" required />
+            <input type="text" name="y2" value="{{ y2 if y2 is defined else '' }}" required />
+                </div>
+        </div>
+        <button type="submit">Calculate</button>
+    </form>
+
+    {% if error %}
+    <p class="error">{{ error }}</p>
+    {% endif %}
+
+    {% if distance is defined and midpoint is defined %}
+    <div class="results">
+        <p>Distance: <strong>{{ distance }}</strong></p>
+        <p>Midpoint: <strong>({{ midpoint[0] }}, {{ midpoint[1] }})</strong></p>
+    </div>
+    <div class="plot">
+        <img src="data:image/png;base64,{{ plot_img }}" alt="Distance and Midpoint Plot" />
+    </div>
+    {% endif %}
+</div>
+</body>
+</html>
