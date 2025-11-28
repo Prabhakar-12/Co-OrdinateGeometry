@@ -13,3 +13,15 @@ A simple web application that calculates the distance and midpoint between two p
 
 ## Project Structure
 
+distance_midpoint_calculator/
+├── app.py
+├── README.md
+├── requirements.txt
+├── src/
+│ ├── calculator.py
+│ └── plotter.py
+├── templates/
+│ └── index.html
+└── static/
+└── style.css
+
