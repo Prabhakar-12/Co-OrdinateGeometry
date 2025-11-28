@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 app = Flask(__name__)
 
+
 def create_plot_image(x1, y1, x2, y2, mid_x, mid_y, distance):
     # Create plot in memory and return base64 string to embed in HTML
     fig = plt.figure(figsize=(6,5))
