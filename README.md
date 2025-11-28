@@ -25,3 +25,36 @@ distance_midpoint_calculator/
 └── static/
 └── style.css
 
+
+## Requirements
+
+- Python 3.x
+- Flask
+- Matplotlib
+- NumPy
+
+Install dependencies with:
+pip install -r requirements.txt
+
+
+## How to Run
+
+1. Clone or download this project.
+2. Navigate to the project folder:
+
+cd distance_midpoint_calculator
+
+
+3. Run the Flask app:
+
+
+4. Open your browser and go to:
+
+http://127.0.0.1:5000/
+
+
+5. Enter coordinates for Point A and Point B to see the distance, midpoint, and plot.
+
+## Author
+
+Created by Prabha as a coordinate geometry mini-project to demonstrate mathematical problem-solving and Python/Flask skills.
