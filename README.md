@@ -28,13 +28,13 @@ distance_midpoint_calculator/
 
 ## Requirements
 
-- Python 3.x
+- Python
 - Flask
 - Matplotlib
 - NumPy
 
 Install dependencies with:
-pip install -r requirements.txt
+pip install  numpy/python/Matplotlib/Flask
 
 
 ## How to Run
