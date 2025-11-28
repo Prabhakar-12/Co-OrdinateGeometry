@@ -4,10 +4,10 @@ A simple web application that calculates the distance and midpoint between two p
 
 ## Features
 
-- Input two points: \((x_1, y_1)\) and \((x_2, y_2)\).
+- Input two points: ((x_1, y_1)) and ((x_2, y_2)).
 - Compute:
-  - Distance: \(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\).
-  - Midpoint: \(\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)\).
+  - Distance: sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}).
+  - Midpoint: ((x_1+x_2)/2)+((y_1+y_2)/2)
 - Visualize the two points, the line segment, and the midpoint on a graph.
 - Clean, beginner-friendly code structure using separate modules.
 
