@@ -67,4 +67,4 @@ http://127.0.0.1:5000/
 
 ## Author
 
-Created by Prabha as a coordinate geometry mini-project to demonstrate mathematical problem-solving and Python/Flask skills.
+Created by Prabhakar as a coordinate geometry mini-project to demonstrate mathematical problem-solving and Python/Flask skills.
